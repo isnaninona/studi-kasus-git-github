@@ -1,4 +1,3 @@
-# studi-kasus-git-github
 # Studi Kasus Git dan Github 
 
 ## Objectives
