@@ -1,8 +1,8 @@
-# Case study: Basic use of Git and Github
+# Studi Kasus: Basic use of Git and Github
 
 ## Scenario 1
 
-Kita adalah seorang programmer yang diminta oleh Boss untuk membuat aplikasi pembelajaran online bernama **ruang-belajar**. Ini adalah aplikasi yang cukup kompleks sehingga setiap perubahan harus:
+Kita adalah seorang programmer yang diminta oleh Boss untuk membuat aplikasi pembelajaran online bernama **ruang-belajar-rpl**. Ini adalah aplikasi yang cukup kompleks sehingga setiap perubahan harus:
 
 - Tercatat dengan baik
 - Memiliki backup
@@ -25,7 +25,7 @@ Lalu kita mengisi file `index.html` dengan code:
 ```html
 <html>
 <head>
-    <title>Ruang Belajar</title>
+    <title>Ruang Belajar RPL</title>
 </head>
 <body>
     
@@ -50,7 +50,7 @@ Kemudian kita membuat file berikutnya yaitu `test.html` dengan isi:
 
 Namun kita tidak ingin file `test.html` di-commit di Git, karena file itu hanya sample page percobaan pribadi. Akhirnya kita harus mendaftarkannya ke file `.gitignore`.
 
-Lalu kita membuat folder di repository untuk menampung semua halaman dari aplikasi **ruang-belajar** bernama `pages`.
+Lalu kita membuat folder di repository untuk menampung semua halaman dari aplikasi **ruang-belajar-rpl** bernama `pages`.
 
 Selanjutnya kita menambahkan beberapa file disana yaitu `material.html`, `question.html` dan kita melakukan commit berikutnya dengan pesan "add pages ruang-belajar" commit ini sudah termasuk dengan file `.gitignore`.
 
@@ -169,7 +169,7 @@ Jadi kita harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan untu
 
 Lalu kita lakukan commit kembali dengan pesan "add some paragraph git basic material"
 
-![Graph 1](./Aset/grap)
+![Graph 1](./Aset/graph1)
 
 Sekarang terlihat bahwa branch utama terisolasi dari perubahan kita tadi malam di branch `dashboard-feature`.
 
