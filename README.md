@@ -32,7 +32,7 @@ Di repository ini, buka file bernama `case-study.md`. Disana akan ada case study
 - Kerjakan **case study di luar repository ini!**
 - Pastikan setelah kamu melakukan push respository ke github, di menu 📈 **Insights** di dalam nya ada menu **Network** akan terlihat seperti ini:
 
-  ![Github Graph](./assets/github-graph.png)
+  ![Github Graph](./Asets/network-graph.png)
 
   > Pastikan semuanya sama!
 
