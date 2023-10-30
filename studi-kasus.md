@@ -169,7 +169,7 @@ Jadi kita harus kembali ke branch utama yaitu `master`. Lalu kita lanjutkan untu
 
 Lalu kita lakukan commit kembali dengan pesan "add some paragraph git basic material"
 
-![Graph 1](./assets/graph1.png)
+![Graph 1](./Asset/grap)
 
 Sekarang terlihat bahwa branch utama terisolasi dari perubahan kita tadi malam di branch `dashboard-feature`.
 
@@ -195,7 +195,7 @@ Selanjutnya kita menambahkan paragraph untuk materi di list selanjutnya pada fil
 
 Dan melakukan commit kembali dengan pesan "update paragraph github material"
 
-![Graph 2](./assets/graph2.png)
+![Graph 2](./Asset/graph2.png)
 
 Semua branch berjalan _independent_, tidak saling berkaitan selama _progress_ berjalan.
 
@@ -223,7 +223,7 @@ Lalu kita menambahkan code di file `dashborad.html` untuk menyelesaikannya:
 
 Karena pekerjaan di branch tersebut telah selesai, maka kita melakukan penggabungan dari branch `master` ke branch `dashboard-feature`
 
-![Graph 3](./assets/graph3.png)
+![Graph 3](./Asset/graph3.png)
 
 Setelah branch digabungkan, kita siap untuk mengerjakan file selanjutnya yaitu file `question.html`. di sini kita tambahkan pertanyaannya:
 
@@ -302,7 +302,7 @@ Tidak lupa melakukan commit dengan pesan "change 1000 to 5 question". Tapi seiri
 
 Jika kita menulis ulang secara manual, tentunya ini akan membutuhkan waktu yang cukup lama. Untungnya kita menggunakan Git untuk menyimpan semua history dari perubahan yang dibuat. Jadi kita melakukan **revert** ke commit tempat kita menambahkan 1000 soal.
 
-![Graph 4](./assets/graph4.png)
+![Graph 4](./Asset/graph4.png)
 
 Setelah melakukan revert, maka soal kita sudah _rollback_ sehingga tidak perlu menulis ulang sebanyak 1000 soal.
 
@@ -384,11 +384,11 @@ Dan melakukan commit dengan pesan "add my material" dan tidak lupa melakukan pus
 
 Setelah kita berkolaborasi dengan branch yang berbeda, **Bob** mengkonfirmasi bahwa materi yang sudah dibuatnya telah selesai dan siap untuk digabungkan dengan perubahan yang kita buat. Namun setelah kita check PR nya, ternyata terjadi conflict antara branch `main` dengan `material-from-bob`.
 
-![Conflict file 1](./assets/conflict-file1.png)
+![Conflict file 1](./Asset/conflict-file1.png)
 
 Jadi kita bisa pindah ke branch `material-from-bob` dan melakukan merge dari sana ke branch `main` untuk menyelesaikan conflict yang terjadi.
 
-![Conflict file 2](./assets/conflict-file2.png)
+![Conflict file 2](./Asset/conflict-file2.png)
 
 Terlihat bahwa, ada beberapa conflict yang terjadi. Kita harus memilih kedua perubahan tersebut karena kita melakukan perubahan pada file yang sama, untuk berkolaborasi.
 
@@ -396,11 +396,11 @@ Setelah memilih kedua perubahan, lalu kita lakukan commit dengan pesan "Merge br
 
 Maka sekarang terlihat bahwa PR **Bob** sudah tidak terjadi conflict dan bisa digabungkan dengan menekan tombol "Merge pull request".
 
-![Merge Button](./assets/merge-button.png)
+![Merge Button](./Asset/merge-button.png)
 
 Setelah dilakukan penggabungan branch, maka kita bisa menghapus branch `material-from-bob` untuk menandakan bahwa pekerjaan di branch tersebut telah selesai.
 
-![Merged](./assets/merged.png)
+![Merged](./Asset/merged.png)
 
 Jika kita kembali ke branch `main` di _local repository_ kita, maka penggabungan belum dilakukan. Mengapa demikian? Karena penggabungan dilakukan oleh Pull Request di Github.
 
@@ -421,4 +421,4 @@ Dan melakukan commit dengan pesan "add README.md and complete assignment Git" ju
 
 Last Graph commit:
 
-![Graph 5 Final](./assets/graph5-final.png)
+![Graph 5 Final](./Asset/graph5-final.png)
