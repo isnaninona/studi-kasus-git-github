@@ -421,4 +421,4 @@ Dan melakukan commit dengan pesan "add README.md and complete assignment Git" ju
 
 Last Graph commit:
 
-![Graph 5 Final](./Asset/graph5-final.png)
+![Graph 5 Final](./Aset/graph5-final.png)
